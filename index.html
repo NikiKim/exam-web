@@ -1,0 +1,480 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="shortcut icon" href="/img/favicon.png" type="image/png">
+	
+    <meta name="description" content="">
+    <title>FASTFOOD - Служба доставки еды</title>
+
+ 
+<link href="/assets/dist/css/bootstrap.css" rel="stylesheet">
+
+   <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+	 <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+
+	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+	<div class="container d-flex justify-content-between">
+	 <a href="#" class="navbar-brand d-flex align-items-center">
+        <img src="img/logo.png" alt="about"  width="40" height="40" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="mr-2" viewBox="0 0 24 24" focusable="false">
+		<strong class="logotext">FAST </strong> <strong class="logotext1"> FOOD</strong>
+      </a>
+	 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+	    <div class="collapse navbar-collapse" id="navbarCollapse">
+      
+	  <ul class="navbar-nav  nav menualign">
+        <li class="nav-item ">
+          <a class="nav-link" href="#">Главная </a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="#about">Преимущества</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="#mywork">Предприятия</a>
+        </li>
+        
+		<li class="nav-item">
+          <a class="nav-link" href="#contact">Контакты</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="admin.html">Админка</a>
+        </li>
+     
+      </ul>
+    </div>
+	  
+	   </div>
+	</nav>
+
+	
+	
+  
+</header>
+
+<main role="main">
+
+<div class="alert alert-success alertmargin " role="alert" id="orderSuccess" style="display: none;">
+ Поздравляю вы оформили заказ! Ваш заказ передан в ресторан!
+  <button type="button" class="close">
+    <span onclick="$('#orderSuccess').hide()">X</span>
+  </button>
+</div>
+
+
+<div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+	  
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+       
+	   <img src="img/1.png" class="placeholder-img" width="100%" height="100%" alt="Responsive image">
+		
+		<div class="container">
+          <div class="carousel-caption  bgcarousel" >
+            <h1 class="h1carousel"  >FAST<strong class="logotext1">FOOD</strong></h1>
+            <p class="logotext">Доставка еды за 30 минут!</p>
+           
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+      <img src="img/2.png" class="placeholder-img" width="100%" height="100%" alt="Responsive image">
+        <div class="container">
+          <div class="carousel-caption  bgcarousel">
+            <h1 class="h1carousel">FAST<strong class="logotext1">FOOD</strong></h1>
+            <p class="logotext">Более 1000 ресторанов по Москве!</p>
+          
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/3.png" class="placeholder-img" width="100%" height="100%" alt="Responsive image">
+          <div class="container">
+          <div class="carousel-caption  bgcarousel">
+            <h1 class="h1carousel">FAST<strong class="logotext1">FOOD</strong></h1>
+            <p class="logotext">Большой выбор кухни на ваш вкус!</p>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Назад</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Вперед</span>
+    </a>
+  </div>
+
+
+
+  <section class="jumbotron text-center">
+    <div class="container">
+      <h2><a name="about"><b>FAST</b><b class="logotext1">FOOD</b> <br>Служба доставки еды</a></h2>
+       <hr class="featurette-divider">
+    </div>
+  </section>
+
+  <div class="album py-2 ">
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+		  <img src="img/pre/1.png" class="bd-placeholder-img card-img-top" width="100%"height="225"  alt="Responsive image">
+            
+			<div class="card-body">
+              <p class="card-text">Доставка в течение 30 минут</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="img/pre/2.png" class="bd-placeholder-img card-img-top" width="100%"height="225"  alt="Responsive image">
+            
+			<div class="card-body">
+              <p class="card-text">Всегда свежая еда</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="img/pre/3.png" class="bd-placeholder-img card-img-top" width="100%"height="225"  alt="Responsive image">
+            
+			<div class="card-body">
+              <p class="card-text">Лучшие повора России</p>
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="img/pre/4.png" class="bd-placeholder-img card-img-top" width="100%"height="225"  alt="Responsive image">
+            
+			<div class="card-body">
+              <p class="card-text">Гарантия качества еды</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+              <img src="img/pre/5.png" class="bd-placeholder-img card-img-top" width="100%"height="225"  alt="Responsive image">
+            
+			<div class="card-body">
+              <p class="card-text">Еженедельные скидки</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+             <img src="img/pre/6.png" class="bd-placeholder-img card-img-top" width="100%"height="225"  alt="Responsive image">
+            
+		   <div class="card-body">
+              <p class="card-text">Большой выбор блюд</p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  <section class="jumbotron text-center">
+    <div class="container">
+	<hr class="featurette-divider">
+      <h2><a name="mywork">Выбор предприятия общественного питания</a></h2>
+       <hr class="featurette-divider">
+    </div>
+  </section>
+   <div class="container">
+  	<div class="row">
+    
+    <div class="col-md-12 order-md-1">
+      <form class="needs-validation" >
+	   <div class="row">
+	   
+			<div class="col-md-6 mb-3">
+				<label for="country">Административный округ</label>
+				<select class="custom-select d-block w-100" id="admArea"></select>
+			</div>
+		  
+			<div class="col-md-6 mb-3">
+				<label for="country">Район</label>
+				<select class="custom-select d-block w-100" id="district"></select>
+			</div>
+			
+			<div class="col-md-6 mb-3">
+				<div class="row">
+				
+					<div class="col-md-6 mb-3 type">
+						<label for="country">Тип</label>
+						<select class="custom-select d-block w-100" id="typeObject"></select>
+					</div>
+					
+					<div class="col-md-6 mb-3 type">
+						<label for="country">Соц. скидка</label>
+						<select class="custom-select d-block w-100" id="socialPrivileges">
+							<option value="">Не выбрана</option>
+							<option value="0">Нет</option>
+							<option value="1">Есть</option>
+						</select>
+					</div>
+					
+				</div>
+			</div>
+		  
+			<div class="col-md-6 mb">
+				<button class="btn  btn-lg btn-block bgbot" onclick="page=1; getResponse(); return false;">Найти</button>
+			</div>
+        </div>   
+		</form>
+		
+		
+		  <div class="row">
+	<div class="col-md-12 mb-3">
+        <table class="table table-bordered">
+  <thead>
+    <tr>
+      <th scope="col">Название</th>
+      <th scope="col">Тип</th>
+      <th scope="col">Адрес</th>
+      <th scope="col">Действия</th>
+    </tr>
+  </thead>
+  <tbody id="cafe_list">
+  </tbody>
+</table>
+
+
+		<nav aria-label="Page navigation example">
+		  <ul class="pagination justify-content-center" id="paginator">
+		  </ul>
+		</nav>
+
+
+		   </div> </div>
+		   
+	<section class="jumbotron text-center">
+    <div class="container">
+	<hr class="featurette-divider">
+      <h2>Меню</h2>
+       <hr class="featurette-divider">
+    </div>
+  </section>	 
+  
+  <div class="album py-5 ">
+    <div class="container">
+
+      <div class="row" id="menu">
+
+      </div>
+    </div>
+  </div>
+  
+  
+  
+
+	<section class="jumbotron text-center">
+		<div class="container">
+			<hr class="featurette-divider">
+				<h2>Дополнительные опции</h2>
+			<hr class="featurette-divider">
+		</div>
+	</section>	  
+		   
+	<form>	   
+		<div class="form-check">
+			<input class="form-check-input" type="checkbox" value="1" id="fastDelivery" onchange="setSum()">
+			<label class="form-check-label" for="fastDelivery">
+				Быстрая доставка
+			</label>
+			<br>
+			<input class="form-check-input" type="checkbox" value="1" id="wantGift">
+			<label class="form-check-label" for="wantGift">
+				Хочу подарок
+			</label>
+		</div>
+	</form>	  
+ <div class="col-md-12 order-md-1 mb">
+      <div class="row">
+      <div class="col-md-6 mb-3">
+			          <h2>ИТОГО: <b><span id="sum">0</span>р</b></h2>
+		</div>
+          
+		
+		  <div class="col-md-6 mb-3">
+                    <button class="btn btn-warning btn-lg btn-block bgbot" type="submit" onclick="setOrderCard();return false;" data-toggle="modal" data-target="#exampleModal">Оформить заказ</button>
+			
+					
+          </div>
+
+		  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  <div class="modal-dialog modal-dialog-scrollable">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Оформление заказа</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					  <span aria-hidden="true">&times;</span>
+					</button>
+				  </div>
+				  <div class="modal-body">
+				  <div class="container">
+					<div class="row" id="orderCard"></div>
+					
+					<div class="row">
+					<div class="col-md-12 mb-3">
+						<h5>Дополнительные опции</h5></br>
+					</div>
+					<div class="col-md-6 mb-3">
+						<p>Быстрая доставка: <span id="orderCardFastDelivery"></span></p>
+					</div>
+					
+					<div class="col-md-12 mb-3">
+					<h5>Информация о предприятии</h5></br>
+					</div>
+					<div class="col-md-7 mb-3">
+						<p>Название</p>
+					</div>
+					<div class="col-md-5 mb-3">
+						<p><b><span id="orderCardCafeName"></span></b></p>
+					</div>
+					
+					<div class="col-md-7 mb-3">
+						<p>Административный округ</p>
+					</div>
+					<div class="col-md-5 mb-3">
+						<p><b><span id="orderCardAdmArea"></span></b></p>	
+					</div>
+					
+					<div class="col-md-7 mb-3">
+						<p>Район</p>
+					</div>
+					<div class="col-md-5 mb-3">
+						<p><b><span id="orderCardDistrict"></span></b></p>	
+					</div>
+					
+					
+					<div class="col-md-7 mb-3">
+						<p>Адрес</p>
+					</div>
+					<div class="col-md-5 mb-3">
+						<p><span id="orderCardAddress"></span></p>	
+					</div>
+					
+					<div class="col-md-7 mb-3">
+						<p>Рейтинг</p>
+					</div>
+					<div class="col-md-5 mb-3">
+						<p><b><span id="orderCardRate"></span></b></p>	
+					</div>
+					
+					
+					<div class="col-md-12 mb-3">
+					<h5>Доставка</h5></br>
+					</div>
+					<div class="col-md-5 mb-3">
+						<p>Зона доставки:</p>
+					</div>
+					<div class="col-md-7 mb-3">
+						<form>
+						 <select class="custom-select d-block w-100" id="zona" required="">
+						  <option value="">Выберите зону...</option>
+						  <option>Первая зона</option>
+						  <option>Вторая зона</option>
+						  <option>Третья зона</option>
+						</select>
+						</form>
+					</div>
+					
+					<div class="col-md-5 mb-3">
+						<p>Адрес доставки:</p>
+					</div>
+					<div class="col-md-7 mb-3">
+						<form>
+						  <textarea class="form-control" id="adress" rows="3"></textarea>
+						</form>
+					</div>
+					
+					
+					
+					<div class="col-md-5 mb-3">
+						<p>ФИО получателя:</p>
+					</div>
+					
+					
+					<div class="col-md-7 mb-3">
+						<form>
+						 <input type="text" class="form-control" id="Fio" placeholder="Введите ФИО">
+						</form>
+					</div>
+					<div class="col-md-6 mb-3">
+						<h4>Итого:</h4>
+					</div>
+					<div class="col-md-6 mb-3">
+						<h4><span id="orderCardSum">0</span> руб.</h4>
+					</div>
+					
+					</div>
+					</div>
+
+					</div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Отмена</button>
+					<button type="button" class="btn bgbot" data-dismiss="modal" onclick="showOrderSuccess(); return false;">Оформить</button>
+				  </div>
+				</div>
+			  </div>
+		</div>
+		  
+		  
+    </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  
+  <section class="jumbotron text-center">
+    <div class="container">
+	<a name="contact"></a>
+       <hr class="featurette-divider">
+    </div>
+  </section>	
+ 
+</main>
+
+<footer class="text-muted">
+  <div class="container">
+    <p class="float-right">
+	
+	  <a class="btn bgbot" href="#" role="button">Вверx</a>
+    </p>
+    <p>ООО "Служба доставки еды" - FAST FOOD</p>
+    <p> Emaill - fastfoodinfo@gmail.com</p>
+	<p> Телефон - 8-800-300-40</p>
+  </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="/assets/dist/js/bootstrap.bundle.js"></script>
+	  <script src="main.js"></script>
+</body>
+</html>
