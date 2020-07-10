@@ -1,6 +1,6 @@
-let page = 1; //начинается с первой стр//
+let page = 1; 
 
-async function getResponse() {  //функция вывоза данных для таблицы фильтрованно//
+async function getResponse() {  
 	let content = await filterContent()  
 	content.sort( compare );
 	
